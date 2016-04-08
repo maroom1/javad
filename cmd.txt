@@ -1,0 +1,38 @@
+git init
+git add .
+git commit -m "netbeans 1st commit"
+git git gigihjgj
+git remote add origin https://github.com/maroom1/netbeans-java-programs.git
+git push -u origin master
+git commit -m "netbeans 1st commit"
+git push -u origin master
+git init
+git add .
+git remote add origin https://github.com/maroom1/netbeans-java-programs.git
+git push -u origin master
+git remote add origin https://maroom1@github.com/maroom1/netbeans-java-programs.git
+git push -u origin master
+git config -l
+echo "# javad" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/maroom1/javad.git
+git push -u origin master
+git add -A
+git push -u origin master
+git add .
+git commit -m "first 2 commit"
+git push -u origin master
+doskey /history > git_commands_help.txt
+git add .
+git remote add origin https://github.com/maroom1/netbeans-java-programs.git
+git config -l
+git config -help
+git config -e
+git config -l
+git add .
+git push -u origin master
+dir
+doskey /history cmd.txt
+doskey /history > cmd.txt
