@@ -18,13 +18,14 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author Lawrence, Kyi
+ * @author Goduguluri
  */
 public class Login extends JFrame implements ActionListener {
 
     private HashMap<String, String> hm;
     private JButton jb1, jb2;
     private JTextField jtf1, jtf2, jtf3;
+    private JLabel jl1;
 
     public Login() {
 
@@ -35,6 +36,7 @@ public class Login extends JFrame implements ActionListener {
         jtf1 = new JTextField();
         jtf2 = new JTextField();
         jtf3 = new JTextField();
+        jl1=new JLabel("");
         p.add(jtf1);
         p.add(new JLabel(""));
         p.add(new JLabel("password"));
@@ -45,7 +47,7 @@ public class Login extends JFrame implements ActionListener {
         p.add(new JLabel(""));
         p.add(new JLabel(""));
         p.add(jb2);
-        p.add(new JLabel(""));
+        p.add(jl1);
         add(p);
         jb1.addActionListener(this);
         jb2.addActionListener(this);
@@ -99,6 +101,8 @@ public class Login extends JFrame implements ActionListener {
         jtf1.setText(null);
         jtf2.setText(null);
         jtf3.setText(null);
+        
+        jl1.setName("total #"+hm.size());
     }
 
 }
