@@ -1,2 +1,0 @@
-ExmpThread1
-MyThreadYield

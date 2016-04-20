@@ -1,2 +1,0 @@
-RunMyThread
-MyRunnableThread
